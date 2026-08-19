@@ -1,0 +1,13 @@
+# Python environment & bytecode
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Secret Environment Files
+.env
+
+# System & OS junk
+.DS_Store
+Thumbs.db

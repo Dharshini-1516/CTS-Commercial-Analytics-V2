@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - Preprocessing & Quality Module
+Enterprise Commercial Analytics Platform - Preprocessing & Quality Module
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """

@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - Streamlit Dashboard UI
+Enterprise Commercial Analytics Platform - Streamlit Dashboard UI
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """
@@ -29,15 +29,17 @@ st.set_page_config(
 
 import os
 
-# Dynamic cache refresh to sync live Supabase data instantly
-@st.cache_data(ttl=2, show_spinner="Syncing Analytics from Supabase PostgreSQL...")
+# Dynamic cache refresh to fetch market analytics data from local storage
+@st.cache_data(ttl=2, show_spinner="Fetching Market Analytics Data from Local Storage...")
 def get_initial_pipeline_data():
-    from src.supabase_client import supabase_warehouse
-    return supabase_warehouse.fetch_clean_data_from_supabase()
+    from src.local_db import local_warehouse
+    return local_warehouse.fetch_clean_data_from_local()
 
-if st.sidebar.button("🔄 Sync Live Supabase Data", help="Fetch latest records directly from Supabase prescriptions_clean"):
+if st.sidebar.button("🔄 Fetch Latest Market Data", help="Fetch latest market feed and recompute local analytics engine"):
     st.cache_data.clear()
     st.rerun()
+
+
 
 initial_data = get_initial_pipeline_data()
 
@@ -331,8 +333,15 @@ with tab3:
     for i, b in enumerate(selected_competitors):
         color_map[b] = palette[i % len(palette)]
         
+    def yw_key(yw):
+        try:
+            parts = str(yw).split('-W')
+            return (int(parts[0]), int(parts[1]))
+        except Exception:
+            return (0, 0)
+
     all_y = []
-    combined_weeks_list = []
+    all_weeks_set = set()
     
     for brand in view_brands:
         f_df = forecast_brand_market_share(gold_df, brand, selected_reg, forecast_horizon=forecast_horizon)
@@ -346,13 +355,18 @@ with tab3:
                 (tot_w['brand_trx'] / tot_w['total_m']) * 100.0,
                 0.0
             )
-            h_sub = tot_w[['year_week', 'market_share_trx_pct']].sort_values('year_week').tail(16)
+            tot_w['yw_sort'] = tot_w['year_week'].apply(yw_key)
+            h_sub = tot_w[['year_week', 'market_share_trx_pct', 'yw_sort']].sort_values('yw_sort').tail(16)
         else:
-            h_sub = gold_df[(gold_df['clean_brand'] == brand) & (gold_df['clean_region'] == selected_reg)].sort_values('year_week').tail(16)
+            sub_df = gold_df[(gold_df['clean_brand'] == brand) & (gold_df['clean_region'] == selected_reg)].copy()
+            sub_df['yw_sort'] = sub_df['year_week'].apply(yw_key)
+            h_sub = sub_df.sort_values('yw_sort').tail(16)
             
         b_color = color_map.get(brand, "#6366f1")
         l_width = 4 if brand == company_brand else 2
         
+        all_weeks_set.update(h_sub['year_week'].tolist())
+
         # Historical Trace
         fig_forecast.add_trace(go.Scatter(
             x=h_sub['year_week'],
@@ -365,6 +379,10 @@ with tab3:
         
         # Forecast Trace
         if not f_df['forecast_market_share_pp'].isna().all():
+            f_df['yw_sort'] = f_df['year_week'].apply(yw_key)
+            f_df = f_df.sort_values('yw_sort')
+            all_weeks_set.update(f_df['year_week'].tolist())
+
             fig_forecast.add_trace(go.Scatter(
                 x=f_df['year_week'],
                 y=f_df['forecast_market_share_pp'],
@@ -380,9 +398,8 @@ with tab3:
                 fig_forecast.add_trace(go.Scatter(x=f_df['year_week'], y=f_df['lower_ci_95'], mode='lines', name='Company Lower 95% CI', fill='tonexty', fillcolor='rgba(99, 102, 241, 0.15)', line=dict(width=0)))
                 all_y += f_df['upper_ci_95'].dropna().tolist() + f_df['lower_ci_95'].dropna().tolist()
 
-        if not combined_weeks_list:
-            combined_weeks_list = h_sub['year_week'].tolist() + f_df['year_week'].tolist()
-            
+    combined_weeks_list = sorted(list(all_weeks_set), key=yw_key)
+
     if all_y:
         min_y = max(0.0, float(min(all_y)) - 2.0)
         max_y = min(100.0, float(max(all_y)) + 2.0)
@@ -403,9 +420,11 @@ with tab4:
     st.subheader("💬 Commercial Intelligence GenAI Assistant")
     st.caption("Ask questions about regional share declines, competitive growth, or commercial strategy!")
     
-    if "chat_messages" not in st.session_state:
+    # Dynamic chat message greeting matching active sidebar selections
+    greeting_text = f"Hello! I am your Commercial Analytics AI Agent. Ask me anything about **{company_brand}** performance in week **{selected_yw}**!"
+    if "chat_messages" not in st.session_state or len(st.session_state.chat_messages) == 1:
         st.session_state.chat_messages = [
-            {"role": "assistant", "content": f"Hello! I am your Commercial Analytics AI Agent. Ask me anything about **{company_brand}** performance in week **{selected_yw}**!"}
+            {"role": "assistant", "content": greeting_text}
         ]
         
     for msg in st.session_state.chat_messages:

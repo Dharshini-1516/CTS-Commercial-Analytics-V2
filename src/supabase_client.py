@@ -96,7 +96,7 @@ class SupabaseLiveDatabaseEngine:
             "status": "SUCCESS",
             "year_week": year_week,
             "raw_records_inserted": raw_inserted_count or len(raw_rows_to_insert),
-            "clean_records_generated_by_trigger": len(clean_df),
+            "clean_records_generated_by_trigger": len(cleaned_df),
             "quarantined_records_count": len(quarantine_df),
             "pipeline_status": "COMPLETED_SUCCESSFULLY"
         }

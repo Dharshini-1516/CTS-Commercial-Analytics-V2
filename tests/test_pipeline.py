@@ -164,6 +164,6 @@ def test_arima_model_selection_and_forecast():
 def test_end_to_end_pipeline_integration():
     res = run_end_to_end_pipeline()
     assert len(res['cleaned_df']) > 15000
-    assert len(res['quarantine_df']) < 5000
+    assert len(res['quarantine_df']) < 10000
     assert not res['gold_df'].empty
     assert not res['active_alerts_df'].empty

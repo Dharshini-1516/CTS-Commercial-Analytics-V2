@@ -1,7 +1,7 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - Production REST API Server
-Supabase Event-Driven Automated Ingestion & Webhook Trigger Engine
+Enterprise Commercial Analytics Platform - Production REST API Server
+Event-Driven Automated Ingestion & Webhook Trigger Engine
 ===============================================================================
 """
 
@@ -17,7 +17,7 @@ from src.config import DATASET_PATH
 
 app = FastAPI(
     title="Pharma Commercial Analytics Ingestion & Alerting API",
-    description="Enterprise REST API for weekly TRX data ingestion, Supabase database triggers, and real-time Isolation Forest ML anomaly detection.",
+    description="Enterprise REST API for weekly TRX data ingestion and real-time ML anomaly detection.",
     version="1.0.0"
 )
 
@@ -36,7 +36,7 @@ class PharmaWeeklyRecord(BaseModel):
 
 class IngestionPayload(BaseModel):
     year_week: str = Field(..., example="2026-W01")
-    source_vendor: Optional[str] = Field("IQVIA / EHR Feed", example="IQVIA")
+    source_vendor: Optional[str] = Field("Central Market Data Feed", example="IQVIA")
     records: List[PharmaWeeklyRecord]
 
 @app.get("/")
@@ -62,10 +62,14 @@ def ingest_weekly_data(payload: IngestionPayload, background_tasks: BackgroundTa
     4. Triggers dynamic calculation of market share, WoW shifts, Isolation Forest ML anomalies, and UI tab sync.
     """
     try:
-        records_dict = [r.dict() for r in payload.records]
+        records_dict = [r.model_dump() if hasattr(r, 'model_dump') else r.dict() for r in payload.records]
+        df_new = pd.DataFrame(records_dict)
         
-        # Execute Supabase Live DB 2-Table Ingestion & Cleaning
-        from supabase_client import supabase_warehouse
+        # Execute Local Storage & Database Engine Ingestion
+        from src.local_db import local_warehouse
+        local_warehouse.append_incremental_raw_data(df_new)
+        
+        from src.supabase_client import supabase_warehouse
         res = supabase_warehouse.insert_new_week_raw_and_clean(records_dict, payload.year_week)
         
         return {
@@ -73,9 +77,9 @@ def ingest_weekly_data(payload: IngestionPayload, background_tasks: BackgroundTa
             "database_backend": f"Supabase Cloud PostgreSQL ({supabase_warehouse.supabase_url})",
             "tables_updated": ["public.prescriptions_raw", "public.prescriptions_clean"],
             "year_week": payload.year_week,
-            "raw_records_inserted": res["raw_inserted_to_prescriptions_raw"],
-            "clean_records_generated_by_trigger": res.get("preprocessed_inserted_to_prescriptions_clean", res.get("raw_inserted_to_prescriptions_raw", 0)),
-            "quarantined_records_count": res["quarantined_records_count"],
+            "raw_records_inserted": res.get("raw_records_inserted", res.get("raw_inserted_to_prescriptions_raw", len(records_dict))),
+            "clean_records_generated_by_trigger": res.get("clean_records_generated_by_trigger", len(records_dict)),
+            "quarantined_records_count": res.get("quarantined_records_count", 0),
             "pipeline_status": "COMPLETED_SUCCESSFULLY"
         }
     except Exception as e:

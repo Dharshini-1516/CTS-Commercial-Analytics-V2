@@ -8,6 +8,6 @@ __pycache__/
 # Secret Environment Files
 .env
 
-# System & OS junk
-.DS_Store
-Thumbs.db
+# Database local files
+*.duckdb
+sample_data/*.duckdb

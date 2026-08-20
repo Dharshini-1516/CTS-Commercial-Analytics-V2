@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - V14 Production Final Master Test Runner
+Enterprise Commercial Analytics Platform - Master Test Runner
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """

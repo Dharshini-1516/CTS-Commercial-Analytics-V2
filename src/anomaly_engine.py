@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - Statistical & ML Anomaly Engine
+Enterprise Commercial Analytics Platform - Statistical & ML Anomaly Engine
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """

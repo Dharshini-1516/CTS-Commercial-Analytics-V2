@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - Regional Shift Alert Engine
+Enterprise Commercial Analytics Platform - Regional Shift Alert Engine
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """

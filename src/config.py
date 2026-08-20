@@ -1,6 +1,6 @@
 """
 ===============================================================================
-Cognizant (CTS) Nurture Placement Hackathon - System Configuration
+Enterprise Commercial Analytics Platform - System Configuration
 Commercial Analytics Market Share & Share-Shift Tracker
 ===============================================================================
 """

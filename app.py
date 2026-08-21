@@ -431,28 +431,39 @@ with tab4:
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
             
-    if user_prompt := st.chat_input(f"Ask a question about {company_brand} in week {selected_yw}..."):
+    if user_prompt := st.chat_input(f"Ask a question about any brand or market performance in week {selected_yw}..."):
         st.session_state.chat_messages.append({"role": "user", "content": user_prompt})
         with st.chat_message("user"):
             st.markdown(user_prompt)
             
-        week_company_df = week_df[week_df['clean_brand'] == company_brand].copy()
-        declines_df = week_company_df[week_company_df['share_shift_pp'] < 0].sort_values('share_shift_pp', ascending=True)
-        gains_df = week_company_df[week_company_df['share_shift_pp'] > 0].sort_values('share_shift_pp', ascending=False)
-        decline_region_list = sorted(declines_df['clean_region'].unique().tolist())
-        growth_region_list = sorted(gains_df['clean_region'].unique().tolist())
-        
-        context_str = f"Selected Company Brand: {company_brand}\n"
-        context_str += f"Target Input Week: {selected_yw}\n"
+        context_str = f"Target Input Week: {selected_yw}\n"
         context_str += f"Selected Region Filter: {sel_region}\n"
         context_str += f"Selected Therapeutic Area Filter: {sel_ta}\n"
-        context_str += f"Current Share for {company_brand} in {selected_yw}: {curr_share:.2f}%\n"
-        context_str += f"WoW Shift in {selected_yw}: {curr_shift_pp:+.2f} pp\n"
-        context_str += f"Decline Region Names ({selected_yw}): {', '.join(decline_region_list)}\n"
-        context_str += f"Growth Region Names ({selected_yw}): {', '.join(growth_region_list)}\n"
-        context_str += f"Selected Competitors: {', '.join(selected_competitors)}\n\n"
+        context_str += f"Primary Selected Company: {company_brand}\n\n"
         
+        context_str += "FULL MARKET BRAND PERFORMANCE SUMMARY:\n"
+        tot_m_vol = week_df['brand_trx'].sum()
+        for b in all_brands:
+            b_df = week_df[week_df['clean_brand'] == b]
+            if not b_df.empty and tot_m_vol > 0:
+                b_vol = b_df['brand_trx'].sum()
+                b_share = (b_vol / tot_m_vol) * 100.0
+                b_shift = b_df['share_shift_pp'].mean() if 'share_shift_pp' in b_df else 0.0
+                g_regs = sorted(b_df[b_df['share_shift_pp'] > 0]['clean_region'].unique().tolist())
+                d_regs = sorted(b_df[b_df['share_shift_pp'] < 0]['clean_region'].unique().tolist())
+                
+                context_str += f"- BRAND: {b} | Share: {b_share:.2f}% | WoW Shift: {b_shift:+.2f} pp | Volume: {b_vol:,.0f} TRx\n"
+                context_str += f"  Growth Regions ({b}): {', '.join(g_regs) if g_regs else 'None'}\n"
+                context_str += f"  Decline Regions ({b}): {', '.join(d_regs) if d_regs else 'None'}\n"
+        
+        context_str += "\nARIMA TIME-SERIES FUTURE FORECAST PROJECTIONS:\n"
         selected_reg = sel_region if sel_region != "All Regions" else all_regions[1] if len(all_regions) > 1 else "Tamil Nadu"
+        for b in all_brands:
+            f_df = forecast_brand_market_share(gold_df, b, selected_reg, forecast_horizon=4)
+            if not f_df.empty and not f_df['forecast_market_share_pp'].isna().all():
+                avg_f = f_df['forecast_market_share_pp'].mean()
+                f_weeks = ", ".join(f_df['year_week'].tolist())
+                context_str += f"- {b} in {selected_reg}: ARIMA Forecasted Share = {avg_f:.2f}% across {f_weeks}\n"
         forecast_summaries = []
         for b in [company_brand] + selected_competitors:
             f_df = forecast_brand_market_share(base_gold_df, b, selected_reg, forecast_horizon=4)

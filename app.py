@@ -420,8 +420,8 @@ with tab4:
     st.subheader("💬 Commercial Intelligence GenAI Assistant")
     st.caption("Ask questions about regional share declines, competitive growth, or commercial strategy!")
     
-    # Dynamic chat message greeting matching active sidebar selections
-    greeting_text = f"Hello! I am your Commercial Analytics AI Agent. Ask me anything about **{company_brand}** performance in week **{selected_yw}**!"
+    # Professional Executive AI Assistant Greeting Banner
+    greeting_text = f"Hello! I am your Senior Commercial Intelligence AI Advisor. Ask me anything about market share, competitor dynamics, regional growth spikes, or executive commercial strategy for **any brand** in week **{selected_yw}**!"
     if "chat_messages" not in st.session_state or len(st.session_state.chat_messages) == 1:
         st.session_state.chat_messages = [
             {"role": "assistant", "content": greeting_text}

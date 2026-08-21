@@ -23651,3 +23651,403 @@ date,week_number,year,region,therapeutic_area,product,brand,trx,nrx,units
 2026-02-15,7,2026,  Rajasthan  ,  Respiratory  ,Respivan,Aerovant Pharma,112.1,34.5,364.0
 2026-02-15,7,2026,Tamil Nadu,diabetes,Glucotend,Glucera Health,301.4,64.0,979.0
 2026-02-15,7,2026,rajasthan,Cardiology,Cardivex,Corvyx Pharma,220.1,48.3,562.0
+2026-03-02,10,2026,  Telangana  ,cardiology,Cardivex,Corvyx Pharma,125.8,27.1,417.0
+2026-03-02,10,2026,rajasthan,respiratory,Airovent,Pulmovia Therapeutics,107.5,34.9,302.0
+2026-03-02,10,2026,maharashtra,  Respiratory  ,Respivan,Aerovant Pharma,198.6,54.0,632.0
+2026-03-02,10,2026,  Gujarat  ,  Cardiology  ,Vascolin,Zenova Biosciences,244.9,72.8,809.0
+2026-03-02,10,2026,  Delhi  ,Cardiology,Cordamet,Meditrix Labs,4919.0,1464.0,5172.0
+2026-03-02,10,2026,  Telangana  ,  Cardiology  ,Cordamet,Meditrix Labs,246.7,70.4,656.0
+2026-03-02,10,2026,DELHI,  Diabetes  ,Insulyn,Insulara Biotech,261.6,51.3,755.0
+2026-03-02,10,2026,gujarat,CARDIOLOGY,Cardivex,Corvyx Pharma,253.1,31.0,667.0
+2026-03-02,10,2026,MAHARASHTRA,Respiratory,Bronchel,Breathex Labs,2002.0,454.0,2400.0
+2026-03-02,10,2026,  West Bengal  ,Respiratory,Bronchel,Breathex Labs,144.4,34.8,389.0
+2026-03-02,10,2026,Maharashtra,Diabetes,Metforal,Novanta Pharma,335.8,124.0,1103.0
+2026-03-02,10,2026,Tamil Nadu,  Diabetes  ,Insulyn,Insulara Biotech,215.0,59.7,581.0
+2026-03-02,10,2026,West Bengal,RESPIRATORY,Airovent,Pulmovia Therapeutics,1951.0,483.0,2226.0
+2026-03-02,10,2026,Karnataka,  Diabetes  ,Metforal,Novanta Pharma,3045.0,842.0,3367.0
+2026-03-02,10,2026,  Tamil Nadu  ,respiratory,Bronchel,Breathex Labs,285.9,65.5,905.0
+2026-03-02,10,2026,maharashtra,CARDIOLOGY,Vascolin,Zenova Biosciences,4774.0,1382.0,5731.0
+2026-03-02,10,2026,telangana,  Diabetes  ,Insulyn,Insulara Biotech,112.8,37.3,343.0
+2026-03-02,10,2026,  Rajasthan  ,diabetes,Insulyn,Insulara Biotech,286.5,44.3,905.0
+2026-03-02,10,2026,KARNATAKA,RESPIRATORY,Bronchel,Breathex Labs,229.9,35.1,669.0
+2026-03-02,10,2026,KERALA,DIABETES,Insulyn,Insulara Biotech,152.5,37.7,416.0
+2026-03-02,10,2026,GUJARAT,CARDIOLOGY,Vascolin,Zenova Biosciences,187.8,42.9,490.0
+2026-03-02,10,2026,rajasthan,DIABETES,Metforal,Novanta Pharma,132.8,38.6,422.0
+2026-03-02,10,2026,telangana,  Diabetes  ,Glucotend,Glucera Health,161.3,27.7,0.0
+2026-03-02,10,2026,TELANGANA,respiratory,Bronchel,Breathex Labs,176.1,0.0,533.0
+2026-03-02,10,2026,maharashtra,Cardiology,Cordamet,Meditrix Labs,184.4,36.8,475.0
+2026-03-02,10,2026,DELHI,  Cardiology  ,Cordamet,Meditrix Labs,210.3,55.7,669.0
+2026-03-02,10,2026,AndhraPradesh,cardiology,Vascolin,Zenova Biosciences,202.2,41.6,590.0
+2026-03-02,10,2026,  Kerala  ,cardiology,Vascolin,Zenova Biosciences,187.7,33.5,478.0
+2026-03-02,10,2026,WEST BENGAL,Diabetes,Metforal,Novanta Pharma,1624.0,505.0,2025.0
+2026-03-02,10,2026,DELHI,Respiratory,Bronchel,Breathex Labs,218.5,77.9,701.0
+2026-03-02,10,2026,  Tamil Nadu  ,Diabetes,Glucotend,Glucera Health,267.7,81.7,700.0
+2026-03-02,10,2026,Gujarat,  Cardiology  ,Cardivex,Corvyx Pharma,163.7,56.6,459.0
+2026-03-02,10,2026,GUJARAT,Diabetes,Metforal,Novanta Pharma,245.0,73.1,803.0
+2026-03-02,10,2026,WEST BENGAL,cardiology,Vascolin,Zenova Biosciences,363.1,55.0,1217.0
+2026-03-02,10,2026,Rajasthan,Respiratory,Airovent,Novanta Pharma,3141.0,1096.0,4032.0
+2026-03-02,10,2026,kerala,Respiratory,Airovent,Pulmovia Therapeutics,106.6,16.2,286.0
+2026-03-02,10,2026,gujarat,RESPIRATORY,Bronchel,Breathex Labs,198.4,53.7,544.0
+2026-03-02,10,2026,  Kerala  ,cardiology,Vascolin,Zenova Biosciences,221.3,60.4,702.0
+2026-03-02,10,2026,Kerala,DIABETES,Insulyn,Insulara Biotech,130.5,34.7,399.0
+2026-03-02,10,2026,MAHARASHTRA,CARDIOLOGY,Cordamet,Unknown,298.2,80.8,831.0
+2026-03-02,10,2026,Delhi,  Respiratory  ,Bronchel,Breathex Labs,222.8,47.8,641.0
+2026-03-02,10,2026,WestBengal,Respiratory,Respivan,Aerovant Pharma,156.4,28.8,504.0
+2026-03-02,10,2026,  Karnataka  ,Cardiology,Cordamet,Meditrix Labs,230.9,48.1,628.0
+2026-03-02,10,2026,Maharashtra,diabetes,Insulyn,Insulara Biotech,285.8,81.7,922.0
+2026-03-02,10,2026,karnataka,DIABETES,Glucotend,Glucera Health,178.8,48.0,501.0
+2026-03-02,10,2026,Karnataka ,respiratory,Respivan,Unknown,5682.0,1311.0,6684.0
+2026-03-02,10,2026,west bengal,RESPIRATORY,Airovent,Pulmovia Therapeutics,117.2,30.1,346.0
+2026-03-02,10,2026,Delhi,Cardiology,Vascolin,Zenova Biosciences,1751.0,505.0,2078.0
+2026-03-02,10,2026,  Maharashtra  ,DIABETES,Metforal,Novanta Pharma,440.6,94.2,1251.0
+2026-03-02,10,2026,  Karnataka  ,Diabetes,Metforal,Novanta Pharma,297.3,116.7,964.0
+2026-03-02,10,2026,ANDHRA PRADESH,CARDIOLOGY,Vascolin,Unknown,198.5,45.2,542.0
+2026-03-02,10,2026,Maharashtra,cardiology,Cardivex,Corvyx Pharma,147.5,33.5,396.0
+2026-03-02,10,2026,Tamil Nadu,RESPIRATORY,Respivan,Aerovant Pharma,153.8,38.0,419.0
+2026-03-02,10,2026,TELANGANA,RESPIRATORY,Respivan,Aerovant Pharma,165.2,45.3,494.0
+2026-03-02,10,2026,Tamilnadu,diabetes,Glucotend,Glucera Health,404.0,103.4,1282.0
+2026-03-02,10,2026,Telangana,Respiratory,Respivan,Aerovant Pharma,108.9,26.2,0.0
+2026-03-02,10,2026,Tamilnadu,RESPIRATORY,Respivan,Aerovant Pharma,235.0,80.0,734.0
+2026-03-02,10,2026,MAHARASHTRA,RESPIRATORY,Respivan,Aerovant Pharma,224.9,59.6,736.0
+2026-03-02,10,2026,Delhi,DIABETES,Glucotend,Glucera Health,272.0,73.3,858.0
+2026-03-02,10,2026,Telangana,Cardiology,Cardivex,Corvyx Pharma,232.8,71.8,656.0
+2026-03-02,10,2026,rajasthan,  Diabetes  ,Glucotend,Glucera Health,224.5,62.4,757.0
+2026-03-02,10,2026,Karnataka ,RESPIRATORY,Airovent,Pulmovia Therapeutics,3297.0,877.0,3904.0
+2026-03-02,10,2026,kerala,respiratory,Respivan,Aerovant Pharma,112.2,24.9,359.0
+2026-03-02,10,2026,West Bengal,CARDIOLOGY,Cardivex,Corvyx Pharma,132.9,40.8,347.0
+2026-03-02,10,2026,  Gujarat  ,Diabetes,Insulyn,Insulara Biotech,209.5,58.4,627.0
+2026-03-02,10,2026,GUJARAT,Diabetes,Insulyn,Insulara Biotech,151.7,57.5,515.0
+2026-03-02,10,2026,  Telangana  ,DIABETES,Glucotend,Glucera Health,166.6,44.2,509.0
+2026-03-02,10,2026,kerala,  Respiratory  ,Respivan,Aerovant Pharma,93.4,19.6,311.0
+2026-03-02,10,2026,Delhi,  Diabetes  ,Glucotend,Glucera Health,392.0,0.0,1191.0
+2026-03-02,10,2026,KARNATAKA,Diabetes,Insulyn,Insulara Biotech,217.4,55.9,627.0
+2026-03-02,10,2026,MAHARASHTRA,Cardiology,Cardivex,Corvyx Pharma,182.0,38.1,583.0
+2026-03-02,10,2026,Tamil Nadu,Diabetes,Insulyn,Insulara Biotech,190.8,43.4,522.0
+2026-03-02,10,2026,andhra pradesh,  Cardiology  ,Vascolin,Zenova Biosciences,164.9,49.3,501.0
+2026-03-02,10,2026,maharashtra,RESPIRATORY,Airovent,Pulmovia Therapeutics,186.0,54.9,589.0
+2026-03-02,10,2026,Gujarat,Cardiology,Cordamet,Meditrix Labs,258.0,45.6,682.0
+2026-03-02,10,2026,  Rajasthan  ,  Respiratory  ,Airovent,Pulmovia Therapeutics,113.1,25.9,339.0
+2026-03-02,10,2026,KARNATAKA,CARDIOLOGY,Cardivex,Corvyx Pharma,209.7,56.8,628.0
+2026-03-02,10,2026,West Bengal,Respiratory,Breathex Inhaler,Breathex Labs,4641.0,1566.0,5696.0
+2026-03-02,10,2026,  Delhi  ,cardiology,Cardivex,Corvyx Pharma,2605.0,695.0,3206.0
+2026-03-02,10,2026,  Kerala  ,cardiology,Vascolin,Zenova Biosciences,164.1,54.7,446.0
+2026-03-02,10,2026,Delhi,Cardiology,Vascolin,Zenova Biosciences,339.7,62.6,1045.0
+2026-03-02,10,2026,Kerala,cardiology,Cardivex,Corvyx Pharma,88.1,27.5,240.0
+2026-03-02,10,2026,Tamil Nadu,RESPIRATORY,Bronchel,Breathex Labs,279.8,107.4,812.0
+2026-03-02,10,2026,MAHARASHTRA,  Diabetes  ,Insulyn,Insulara Biotech,212.8,40.0,667.0
+2026-03-02,10,2026,ANDHRA PRADESH,Diabetes,Glucotend,Glucera Health,246.9,87.7,812.0
+2026-03-02,10,2026,Rajasthan,Respiratory,Aerovant HFA,Aerovant Pharma,5269.0,1818.0,6337.0
+2026-03-02,10,2026,  Delhi  ,diabetes,Insulyn,Insulara Biotech,175.1,63.7,482.0
+2026-03-02,10,2026,andhra pradesh,Diabetes,Glucotend,Glucera Health,207.7,48.3,567.0
+2026-03-02,10,2026,WestBengal,CARDIOLOGY,Vascolin,Zenova Biosciences,259.6,23.4,761.0
+2026-03-02,10,2026,andhra pradesh,Cardiology,Cordamet,Meditrix Labs,4234.0,954.0,5275.0
+2026-03-02,10,2026,MAHARASHTRA,  Cardiology  ,Vascolin,Zenova Biosciences,269.3,52.9,884.0
+2026-03-02,10,2026,  Gujarat  ,Diabetes,Metforal,Novanta Pharma,331.4,121.2,1083.0
+2026-03-02,10,2026,WEST BENGAL,diabetes,Metforal,Novanta Pharma,281.7,62.8,765.0
+2026-03-02,10,2026,telangana,CARDIOLOGY,Cardivex,Corvyx Pharma,84.6,20.8,267.0
+2026-03-02,10,2026,tamil nadu,Respiratory,Bronchel,Breathex Labs,231.6,46.6,668.0
+2026-03-02,10,2026,delhi,diabetes,Metforal,Novanta Pharma,225.5,66.0,592.0
+2026-03-02,10,2026,Maharashtra,Respiratory,Bronchel,Breathex Labs,314.8,109.7,1023.0
+2026-03-02,10,2026,Telangana,  Diabetes  ,Metforal,Novanta Pharma,147.6,38.2,461.0
+2026-03-02,10,2026,Telangana,DIABETES,Insulyn,Insulara Biotech,213.9,48.7,574.0
+2026-03-02,10,2026,AndhraPradesh,  Cardiology  ,Vascolin,Zenova Biosciences,221.3,57.0,574.0
+2026-03-02,10,2026,  Gujarat  ,Cardiology,Vascolin,Zenova Biosciences,182.2,33.6,0.0
+2026-03-02,10,2026,Gujarat,diabetes,Metforal,Novanta Pharma,337.0,94.0,993.0
+2026-03-02,10,2026,West Bengal,diabetes,Glucotend,Glucera Health,197.6,56.1,504.0
+2026-03-02,10,2026,Gujarat,respiratory,Airovent,Pulmovia Therapeutics,183.8,34.7,589.0
+2026-03-02,10,2026,GUJARAT,  Respiratory  ,Bronchel,Breathex Labs,236.0,85.9,684.0
+2026-03-02,10,2026,DELHI,Diabetes,Glucotend,Glucera Health,385.7,83.5,1008.0
+2026-03-02,10,2026,KERALA,diabetes,Metforal,Novanta Pharma,181.5,35.7,588.0
+2026-03-02,10,2026,  Gujarat  ,cardiology,Cardivex,Corvyx Pharma,170.0,62.8,513.0
+2026-03-02,10,2026,  Kerala  ,  Cardiology  ,Cordamet,Meditrix Labs,130.8,25.9,361.0
+2026-03-02,10,2026,  Maharashtra  ,cardiology,Cordamet,Meditrix Labs,239.2,90.1,784.0
+2026-03-02,10,2026,andhra pradesh,Cardiology,Cordamet,Meditrix Labs,264.6,81.5,822.0
+2026-03-02,10,2026,  Maharashtra  ,Diabetes,Glucotend,Glucera Health,2200.0,764.0,2747.0
+2026-03-02,10,2026,  Telangana  ,  Diabetes  ,Glucotend,Glucera Health,200.2,67.1,563.0
+2026-03-02,10,2026,West Bengal,cardiology,Vascolin,Zenova Biosciences,229.6,67.2,719.0
+2026-03-02,10,2026,Delhi,respiratory,Respivan,Aerovant Pharma,5474.0,1888.0,6067.0
+2026-03-02,10,2026,Maharashtra,Respiratory,Airovent,Novanta Pharma,4064.0,1233.0,4641.0
+2026-03-02,10,2026,  Kerala  ,DIABETES,Metforal,Novanta Pharma,113.4,31.9,324.0
+2026-03-02,10,2026,RAJASTHAN,  Cardiology  ,Vascolin,Zenova Biosciences,208.1,47.6,633.0
+2026-03-02,10,2026,kerala,CARDIOLOGY,Vascolin,Zenova Biosciences,199.3,60.6,620.0
+2026-03-02,10,2026,  Rajasthan  ,DIABETES,Metforal,Novanta Pharma,161.6,54.3,485.0
+2026-03-02,10,2026,AndhraPradesh,RESPIRATORY,Respivan,Unknown,143.3,14.2,409.0
+2026-03-02,10,2026,kerala,diabetes,Metforal,Novanta Pharma,237.8,83.7,686.0
+2026-03-02,10,2026,  Maharashtra  ,Diabetes,Insulyn,Insulara Biotech,473.5,93.5,1187.0
+2026-03-02,10,2026,TELANGANA,Diabetes,Glucotend,Glucera Health,5833.0,1529.0,6809.0
+2026-03-02,10,2026,  Maharashtra  ,RESPIRATORY,Bronchel,Breathex Labs,152.8,28.3,476.0
+2026-03-02,10,2026,TAMIL NADU,  Cardiology  ,Cordamet,Meditrix Labs,324.0,90.0,1066.0
+2026-03-02,10,2026,Tamil Nadu,CARDIOLOGY,Cardivex,Corvyx Pharma,203.4,29.3,601.0
+2026-03-02,10,2026,West Bengal,cardiology,Cardivex,Corvyx Pharma,159.4,34.1,519.0
+2026-03-02,10,2026,west bengal,cardiology,Cardivex,Corvyx Pharma,252.7,52.0,675.0
+2026-03-02,10,2026,Maharashtra,CARDIOLOGY,Cordamet,Meditrix Labs,437.7,0.0,1479.0
+2026-03-02,10,2026,  Rajasthan  ,  Respiratory  ,Respivan,Aerovant Pharma,216.8,60.9,614.0
+2026-03-02,10,2026,WEST BENGAL,CARDIOLOGY,Vascolin,Zenova Biosciences,230.2,87.6,579.0
+2026-03-02,10,2026,gujarat,DIABETES,Metforal,Novanta Pharma,3514.0,769.0,4320.0
+2026-03-02,10,2026,Andhra Pradesh,respiratory,Bronchel,Breathex Labs,185.3,45.5,587.0
+2026-03-02,10,2026,Andhra Pradesh,  Respiratory  ,Bronchel,Breathex Labs,202.7,41.8,597.0
+2026-03-02,10,2026,Kerala,  Cardiology  ,Cordamet,Meditrix Labs,122.9,41.7,343.0
+2026-03-02,10,2026,  Rajasthan  ,Respiratory,Respivan,Aerovant Pharma,127.6,43.0,339.0
+2026-03-02,10,2026,RAJASTHAN,diabetes,Insulyn,Insulara Biotech,208.0,61.9,575.0
+2026-03-02,10,2026,  Kerala  ,Diabetes,Insulyn,Insulara Biotech,207.7,68.0,705.0
+2026-03-02,10,2026,DELHI,DIABETES,Glucotend,Glucera Health,2379.0,819.0,2682.0
+2026-03-02,10,2026,DELHI,diabetes,Insulyn,Insulara Biotech,400.4,86.4,1217.0
+2026-03-02,10,2026,TELANGANA,RESPIRATORY,Respivan,Aerovant Pharma,124.6,29.1,353.0
+2026-03-02,10,2026,  West Bengal  ,DIABETES,Glucotend,Glucera Health,190.2,57.6,578.0
+2026-03-02,10,2026,Karnataka,Respiratory,Respivan,Aerovant Pharma,214.2,69.0,673.0
+2026-03-02,10,2026,Delhi,RESPIRATORY,Airovent,Pulmovia Therapeutics,169.8,33.9,572.0
+2026-03-02,10,2026,WEST BENGAL,respiratory,Respivan,Aerovant Pharma,142.1,30.1,482.0
+2026-03-02,10,2026,  Andhra Pradesh  ,diabetes,Insulyn,Insulara Biotech,196.8,77.0,667.0
+2026-03-02,10,2026,Gujarat,  Cardiology  ,Cordamet,Meditrix Labs,225.7,0.0,613.0
+2026-03-02,10,2026,  Maharashtra  ,Diabetes,Insulyn,Insulara Biotech,0.0,58.5,1267.0
+2026-03-02,10,2026,Tamil Nadu,DIABETES,Glucotend,Glucera Health,285.4,99.0,805.0
+2026-03-02,10,2026,RAJASTHAN,cardiology,Cardivex,Corvyx Pharma,97.5,19.5,292.0
+2026-03-02,10,2026,  Andhra Pradesh  ,Diabetes,Metforal,Novanta Pharma,190.0,36.3,616.0
+2026-03-02,10,2026,  Kerala  ,  Cardiology  ,Vascolin,Zenova Biosciences,165.3,25.2,549.0
+2026-03-02,10,2026,  Gujarat  ,Cardiology,Cordamet,Unknown,176.9,57.6,577.0
+2026-03-02,10,2026,maharashtra,CARDIOLOGY,Vascolin,Zenova Biosciences,4774.0,1382.0,5731.0
+2026-03-02,10,2026,RAJASTHAN,diabetes,Metforal,Novanta Pharma,2934.0,632.0,3306.0
+2026-03-02,10,2026,Delhi,Respiratory,Bronchel,Breathex Labs,211.0,51.3,572.0
+2026-03-02,10,2026,ANDHRA PRADESH,Respiratory,Bronchel,Breathex Labs,204.8,49.1,624.0
+2026-03-02,10,2026,Andhra Pradesh,CARDIOLOGY,Cordamet,Meditrix Labs,98.8,30.2,252.0
+2026-03-02,10,2026,WEST BENGAL,DIABETES,Glucotend,Glucera Health,220.1,45.3,608.0
+2026-03-02,10,2026,telangana,cardiology,Vascolin,Zenova Biosciences,209.0,57.0,603.0
+2026-03-02,10,2026,Karnataka,  Diabetes  ,Insulyn,Insulara Biotech,196.4,59.0,516.0
+2026-03-02,10,2026,  Telangana  ,Respiratory,Respivan,Unknown,99.8,28.6,303.0
+2026-03-02,10,2026,Tamil Nadu,diabetes,Insulyn,Insulara Biotech,248.0,99.7,0.0
+2026-03-02,10,2026,Karnataka ,CARDIOLOGY,Vascolin,Zenova Biosciences,339.0,75.2,1107.0
+2026-03-02,10,2026,RAJASTHAN,Diabetes,Metforal,Novanta Pharma,165.9,46.8,475.0
+2026-03-02,10,2026,Andhra Pradesh,RESPIRATORY,Airovent,Pulmovia Therapeutics,164.9,39.9,486.0
+2026-03-02,10,2026,Telangana,respiratory,Airovent,Pulmovia Therapeutics,107.9,30.3,298.0
+2026-03-02,10,2026,Maharashtra,  Diabetes  ,Metforal,Novanta Pharma,5193.0,1388.0,6135.0
+2026-03-02,10,2026,GUJARAT,RESPIRATORY,Bronchel,Breathex Labs,4020.0,1149.0,4941.0
+2026-03-02,10,2026,  Telangana  ,DIABETES,Insulyn,Insulara Biotech,265.7,80.5,859.0
+2026-03-02,10,2026,AndhraPradesh,cardiology,Vascolin,Zenova Biosciences,150.0,44.3,481.0
+2026-03-02,10,2026,RAJASTHAN,  Respiratory  ,Airovent,Pulmovia Therapeutics,134.3,40.1,403.0
+2026-03-02,10,2026,TAMIL NADU,DIABETES,Metforal,Novanta Pharma,233.0,68.4,770.0
+2026-03-02,10,2026,Tamil Nadu,Respiratory,Airovent,Pulmovia Therapeutics,3745.0,1219.0,4405.0
+2026-03-02,10,2026,karnataka,DIABETES,Metforal,Novanta Pharma,202.0,52.5,592.0
+2026-03-02,10,2026,west bengal,  Diabetes  ,Glucotend,Glucera Health,278.0,78.3,698.0
+2026-03-02,10,2026,ANDHRA PRADESH,cardiology,Cordamet,Meditrix Labs,190.9,53.2,555.0
+2026-03-02,10,2026,AndhraPradesh,Diabetes,Insulyn,Insulara Biotech,163.9,36.9,478.0
+2026-03-02,10,2026,KARNATAKA,  Diabetes  ,Insulyn,Insulara Biotech,239.3,0.0,658.0
+2026-03-02,10,2026,MAHARASHTRA,diabetes,Insulyn,Insulara Biotech,291.5,86.9,748.0
+2026-03-02,10,2026,rajasthan,Respiratory,Airovent,Pulmovia Therapeutics,82.7,19.6,243.0
+2026-03-02,10,2026,rajasthan,Cardiology,Cardivex,Corvyx Pharma,174.7,52.2,503.0
+2026-03-02,10,2026,WEST BENGAL,Diabetes,Insulyn,Insulara Biotech,167.3,37.9,479.0
+2026-03-02,10,2026,Tamil Nadu,Respiratory,Bronchel,Breathex Labs,193.9,45.7,652.0
+2026-03-02,10,2026,Maharashtra,diabetes,Insulyn,Insulara Biotech,4982.0,1451.0,5270.0
+2026-03-02,10,2026,Tamil Nadu,Respiratory,Aerovant HFA,Aerovant Pharma,4890.0,1350.0,5200.0
+2026-03-02,10,2026,KARNATAKA,Cardiology,Vascolin,Zenova Biosciences,295.6,106.9,963.0
+2026-03-02,10,2026,KARNATAKA,cardiology,Cardivex,Corvyx Pharma,259.7,45.6,682.0
+2026-03-02,10,2026,ANDHRA PRADESH,  Cardiology  ,Vascolin,Zenova Biosciences,214.0,66.7,639.0
+2026-03-02,10,2026,Karnataka,Respiratory,Bronchel,Breathex Labs,236.6,51.0,735.0
+2026-03-02,10,2026,telangana,  Cardiology  ,Cordamet,Meditrix Labs,227.7,58.0,768.0
+2026-03-02,10,2026,West Bengal,diabetes,Glucotend,Glucera Health,351.1,81.2,1179.0
+2026-03-02,10,2026,Tamilnadu,diabetes,Insulyn,Insulara Biotech,255.6,88.7,669.0
+2026-03-02,10,2026,  West Bengal  ,respiratory,Bronchel,Breathex Labs,202.1,46.6,511.0
+2026-03-02,10,2026,MAHARASHTRA,Respiratory,Bronchel,Breathex Labs,212.5,46.7,549.0
+2026-03-02,10,2026,Tamil Nadu,  Cardiology  ,Cardivex,Corvyx Pharma,146.1,32.6,444.0
+2026-03-02,10,2026,KERALA,RESPIRATORY,Bronchel,Breathex Labs,153.2,38.4,433.0
+2026-03-02,10,2026,Rajasthan,Cardiology,Corvyx TAB,Corvyx Pharma,4742.0,1400.0,5769.0
+2026-03-02,10,2026,rajasthan,Respiratory,Bronchel,Breathex Labs,162.5,34.4,433.0
+2026-03-02,10,2026,tamil nadu,Respiratory,Respivan,Aerovant Pharma,170.9,68.7,433.0
+2026-03-02,10,2026,  Telangana  ,  Respiratory  ,Bronchel,Breathex Labs,193.7,71.2,577.0
+2026-03-02,10,2026,Telangana,  Respiratory  ,Respivan,Aerovant Pharma,120.4,44.3,407.0
+2026-03-02,10,2026,  Kerala  ,  Respiratory  ,Airovent,Pulmovia Therapeutics,106.7,31.7,329.0
+2026-03-02,10,2026,  Rajasthan  ,DIABETES,Glucotend,Glucera Health,198.2,41.9,499.0
+2026-03-02,10,2026,maharashtra,Respiratory,Bronchel,Breathex Labs,196.8,65.2,666.0
+2026-03-02,10,2026,  Andhra Pradesh  ,cardiology,Cardivex,Corvyx Pharma,104.8,14.4,348.0
+2026-03-02,10,2026,TAMIL NADU,cardiology,Cardivex,Corvyx Pharma,113.6,19.6,350.0
+2026-03-02,10,2026,maharashtra,Respiratory,Airovent,Pulmovia Therapeutics,176.8,50.3,481.0
+2026-03-02,10,2026,Telangana,Diabetes,Insulyn,Insulara Biotech,182.8,60.7,474.0
+2026-03-02,10,2026,  Maharashtra  ,DIABETES,Glucotend,Glucera Health,478.2,55.9,1246.0
+2026-03-02,10,2026,Tamilnadu,  Diabetes  ,Metforal,Novanta Pharma,261.1,81.7,659.0
+2026-03-02,10,2026,rajasthan,  Cardiology  ,Vascolin,Zenova Biosciences,142.0,34.1,431.0
+2026-03-02,10,2026,  Delhi  ,RESPIRATORY,Airovent,Pulmovia Therapeutics,129.3,34.0,407.0
+2026-03-02,10,2026,WestBengal,  Diabetes  ,Insulyn,Insulara Biotech,3627.0,1212.0,4470.0
+2026-03-02,10,2026,  Kerala  ,respiratory,Airovent,Pulmovia Therapeutics,156.0,41.8,469.0
+2026-03-02,10,2026,  Kerala  ,respiratory,Airovent,Pulmovia Therapeutics,149.6,36.8,403.0
+2026-03-02,10,2026,Tamil Nadu,  Diabetes  ,Insulyn,Insulara Biotech,329.6,66.0,826.0
+2026-03-02,10,2026,kerala,DIABETES,Glucotend,Glucera Health,206.0,41.1,682.0
+2026-03-02,10,2026,Maharashtra,RESPIRATORY,Airovent,Unknown,4157.0,843.0,4395.0
+2026-03-02,10,2026,  Maharashtra  ,diabetes,Metforal,Novanta Pharma,274.1,73.8,741.0
+2026-03-02,10,2026,  Kerala  ,respiratory,Bronchel,Breathex Labs,170.8,41.2,446.0
+2026-03-02,10,2026,Karnataka ,DIABETES,Metforal,Novanta Pharma,254.8,62.9,737.0
+2026-03-02,10,2026,  Andhra Pradesh  ,diabetes,Insulyn,Insulara Biotech,243.7,43.0,825.0
+2026-03-02,10,2026,West Bengal,  Diabetes  ,Insulyn,Insulara Biotech,195.5,31.2,566.0
+2026-03-02,10,2026,ANDHRA PRADESH,DIABETES,Insulyn,Insulara Biotech,195.0,60.9,645.0
+2026-03-02,10,2026,TELANGANA,Diabetes,Insulyn,Insulara Biotech,190.9,56.8,559.0
+2026-03-02,10,2026,Maharashtra,Respiratory,Respivan,Unknown,201.5,48.8,543.0
+2026-03-02,10,2026,MAHARASHTRA,DIABETES,Metforal,Novanta Pharma,340.6,86.4,1085.0
+2026-03-02,10,2026,Rajasthan,Diabetes,Insulyn,Insulara Biotech,211.0,46.9,630.0
+2026-03-02,10,2026,ANDHRA PRADESH,cardiology,Cordamet,Meditrix Labs,228.0,50.3,587.0
+2026-03-02,10,2026,Delhi,DIABETES,Insulyn,Insulara Biotech,167.6,65.9,526.0
+2026-03-02,10,2026,Delhi,RESPIRATORY,Airovent,Pulmovia Therapeutics,159.6,39.4,532.0
+2026-03-02,10,2026,delhi,  Respiratory  ,Airovent,Pulmovia Therapeutics,185.1,51.7,594.0
+2026-03-02,10,2026,Delhi,cardiology,Cordamet,Meditrix Labs,195.9,33.1,586.0
+2026-03-02,10,2026,kerala,  Diabetes  ,Insulyn,Insulara Biotech,3224.0,981.0,3595.0
+2026-03-02,10,2026,  Andhra Pradesh  ,respiratory,Bronchel,Breathex Labs,4881.0,1155.0,5715.0
+2026-03-02,10,2026,GUJARAT,  Diabetes  ,Metforal,Novanta Pharma,230.7,0.0,578.0
+2026-03-02,10,2026,Kerala,DIABETES,Insulyn,Insulara Biotech,184.0,60.0,577.0
+2026-03-02,10,2026,Kerala,CARDIOLOGY,Cardivex,Corvyx Pharma,81.1,19.6,219.0
+2026-03-02,10,2026,Tamilnadu,cardiology,Vascolin,Zenova Biosciences,289.1,51.8,816.0
+2026-03-02,10,2026,  Tamil Nadu  ,Diabetes,Glucotend,Glucera Health,187.9,53.7,533.0
+2026-03-02,10,2026,rajasthan,RESPIRATORY,Bronchel,Breathex Labs,167.6,0.0,456.0
+2026-03-02,10,2026,Tamil Nadu,respiratory,Respivan,Aerovant Pharma,229.5,63.4,742.0
+2026-03-02,10,2026,Andhra Pradesh,Cardiology,Cordamet,Meditrix Labs,4458.0,1165.0,5713.0
+2026-03-02,10,2026,Tamil Nadu,respiratory,Respivan,Aerovant Pharma,170.5,34.5,452.0
+2026-03-02,10,2026,RAJASTHAN,  Diabetes  ,Insulyn,Insulara Biotech,3147.0,808.0,3332.0
+2026-03-02,10,2026,  Rajasthan  ,RESPIRATORY,Airovent,Pulmovia Therapeutics,105.7,24.3,320.0
+2026-03-02,10,2026,  Karnataka  ,cardiology,Cordamet,Meditrix Labs,162.0,23.4,416.0
+2026-03-02,10,2026,Delhi,Cardiology,Cardivex,Corvyx Pharma,368.2,120.9,1040.0
+2026-03-02,10,2026,RAJASTHAN,Respiratory,Airovent,Unknown,2948.0,958.0,3243.0
+2026-03-02,10,2026,tamil nadu,CARDIOLOGY,Cardivex,Corvyx Pharma,220.5,53.2,594.0
+2026-03-02,10,2026,  Tamil Nadu  ,CARDIOLOGY,Vascolin,Zenova Biosciences,208.3,41.8,563.0
+2026-03-02,10,2026,  Maharashtra  ,  Respiratory  ,Airovent,Pulmovia Therapeutics,254.7,48.1,0.0
+2026-03-02,10,2026,WEST BENGAL,Respiratory,Airovent,Pulmovia Therapeutics,116.1,32.1,382.0
+2026-03-02,10,2026,Gujarat,CARDIOLOGY,Cordamet,Meditrix Labs,180.6,47.0,0.0
+2026-03-02,10,2026,telangana,  Respiratory  ,Bronchel,Breathex Labs,206.9,55.7,638.0
+2026-03-02,10,2026,  West Bengal  ,RESPIRATORY,Airovent,Pulmovia Therapeutics,152.5,41.8,453.0
+2026-03-02,10,2026,Karnataka ,diabetes,Metforal,Novanta Pharma,288.5,35.1,907.0
+2026-03-02,10,2026,andhra pradesh,RESPIRATORY,Respivan,Aerovant Pharma,142.1,42.4,471.0
+2026-03-02,10,2026,Kerala,  Diabetes  ,Insulyn,Insulara Biotech,194.3,52.7,541.0
+2026-03-02,10,2026,GUJARAT,CARDIOLOGY,Cordamet,Meditrix Labs,211.9,56.0,643.0
+2026-03-02,10,2026,maharashtra,respiratory,Bronchel,Breathex Labs,154.6,46.3,432.0
+2026-03-02,10,2026,WEST BENGAL,cardiology,Vascolin,Zenova Biosciences,235.3,73.5,621.0
+2026-03-02,10,2026,  Rajasthan  ,DIABETES,Insulyn,Insulara Biotech,199.1,52.9,503.0
+2026-03-02,10,2026,WEST BENGAL,Respiratory,Airovent,Pulmovia Therapeutics,207.2,58.4,531.0
+2026-03-02,10,2026,WEST BENGAL,cardiology,Cardivex,Corvyx Pharma,0.0,36.6,512.0
+2026-03-02,10,2026,Tamil Nadu,  Cardiology  ,Cordamet,Meditrix Labs,330.5,109.9,969.0
+2026-03-02,10,2026,KARNATAKA,  Diabetes  ,Insulyn,Insulara Biotech,257.3,53.0,833.0
+2026-03-02,10,2026,Rajasthan,  Respiratory  ,Airovent,Pulmovia Therapeutics,105.5,33.2,346.0
+2026-03-02,10,2026,KARNATAKA,Diabetes,Glucotend,Glucera Health,223.2,43.5,578.0
+2026-03-02,10,2026,ANDHRA PRADESH,  Cardiology  ,Cardivex,Corvyx Pharma,204.1,56.3,517.0
+2026-03-02,10,2026,Telangana,Cardiology,Corvyx TAB,Corvyx Pharma,4139.0,1245.0,5138.0
+2026-03-02,10,2026,Maharashtra,Cardiology,Cordamet,Meditrix Labs,238.0,61.3,700.0
+2026-03-02,10,2026,MAHARASHTRA,diabetes,Insulyn,Insulara Biotech,305.4,67.9,930.0
+2026-03-02,10,2026,  Delhi  ,cardiology,Vascolin,Zenova Biosciences,296.3,106.8,783.0
+2026-03-02,10,2026,delhi,respiratory,Respivan,Aerovant Pharma,214.0,61.1,717.0
+2026-03-02,10,2026,Telangana,diabetes,Metforal,Novanta Pharma,194.4,49.7,532.0
+2026-03-02,10,2026,  Tamil Nadu  ,Cardiology,Cordamet,Unknown,205.0,42.2,559.0
+2026-03-02,10,2026,Telangana,diabetes,Insulyn,Insulara Biotech,2567.0,845.0,2894.0
+2026-03-02,10,2026,West Bengal,  Diabetes  ,Glucotend,Glucera Health,243.0,72.6,776.0
+2026-03-02,10,2026,rajasthan,CARDIOLOGY,Cordamet,Meditrix Labs,5483.0,1110.0,6014.0
+2026-03-02,10,2026,Delhi,DIABETES,Glucotend,Glucera Health,280.2,87.1,895.0
+2026-03-02,10,2026,DELHI,Diabetes,Insulyn,Insulara Biotech,275.0,62.4,934.0
+2026-03-02,10,2026,  Delhi  ,Cardiology,Cordamet,Meditrix Labs,381.2,83.9,1096.0
+2026-03-02,10,2026,gujarat,CARDIOLOGY,Cordamet,Meditrix Labs,294.9,77.4,844.0
+2026-03-02,10,2026,  Gujarat  ,Cardiology,Cordamet,Unknown,176.9,57.6,577.0
+2026-03-02,10,2026,  Maharashtra  ,RESPIRATORY,Bronchel,Breathex Labs,363.2,78.5,1139.0
+2026-03-02,10,2026,WEST BENGAL,  Respiratory  ,Airovent,Pulmovia Therapeutics,271.5,80.6,823.0
+2026-03-02,10,2026,gujarat,CARDIOLOGY,Vascolin,Zenova Biosciences,206.6,49.9,634.0
+2026-03-02,10,2026,WEST BENGAL,DIABETES,Insulyn,Insulara Biotech,348.7,82.2,1148.0
+2026-03-02,10,2026,andhra pradesh,  Respiratory  ,Airovent,Pulmovia Therapeutics,169.6,32.7,456.0
+2026-03-02,10,2026,RAJASTHAN,Diabetes,Insulyn,Insulara Biotech,165.0,57.6,424.0
+2026-03-02,10,2026,Rajasthan,DIABETES,Metforal,Novanta Pharma,186.6,50.1,630.0
+2026-03-02,10,2026,KERALA,diabetes,Glucotend,Glucera Health,201.5,41.5,576.0
+2026-03-02,10,2026,  Gujarat  ,Cardiology,Cordamet,Unknown,176.9,57.6,577.0
+2026-03-02,10,2026,kerala,Cardiology,Cardivex,Corvyx Pharma,139.2,27.6,391.0
+2026-03-02,10,2026,RAJASTHAN,Diabetes,Glucotend,Glucera Health,242.9,41.6,813.0
+2026-03-02,10,2026,gujarat,RESPIRATORY,Airovent,Pulmovia Therapeutics,126.3,27.9,397.0
+2026-03-02,10,2026,tamil nadu,DIABETES,Insulyn,Insulara Biotech,267.2,59.1,669.0
+2026-03-02,10,2026,Delhi,Diabetes,Januvia,MSD Pharma,5494.0,1872.0,6634.0
+2026-03-02,10,2026,KERALA,RESPIRATORY,Respivan,Aerovant Pharma,118.3,27.7,376.0
+2026-03-02,10,2026,Kerala,Cardiology,Cardivex,Corvyx Pharma,194.3,32.0,606.0
+2026-03-02,10,2026,KERALA,  Cardiology  ,Vascolin,Zenova Biosciences,187.6,48.3,608.0
+2026-03-02,10,2026,AndhraPradesh,diabetes,Insulyn,Insulara Biotech,190.5,56.4,566.0
+2026-03-02,10,2026,  Gujarat  ,  Cardiology  ,Cardivex,Corvyx Pharma,104.3,21.3,306.0
+2026-03-02,10,2026,  Rajasthan  ,DIABETES,Metforal,Novanta Pharma,147.8,39.7,421.0
+2026-03-02,10,2026,telangana,DIABETES,Glucotend,Glucera Health,251.5,46.2,814.0
+2026-03-02,10,2026,delhi,cardiology,Vascolin,Zenova Biosciences,4546.0,932.0,5585.0
+2026-03-02,10,2026,  Andhra Pradesh  ,Respiratory,Airovent,Pulmovia Therapeutics,123.4,18.7,377.0
+2026-03-02,10,2026,WestBengal,Cardiology,Cordamet,Meditrix Labs,3233.0,1011.0,3642.0
+2026-03-02,10,2026,MAHARASHTRA,RESPIRATORY,Airovent,Pulmovia Therapeutics,129.5,31.7,411.0
+2026-03-02,10,2026,telangana,Cardiology,Vascolin,Zenova Biosciences,160.7,45.8,452.0
+2026-03-02,10,2026,telangana,RESPIRATORY,Respivan,Aerovant Pharma,95.8,23.4,258.0
+2026-03-02,10,2026,ANDHRA PRADESH,RESPIRATORY,Airovent,Pulmovia Therapeutics,161.9,32.8,411.0
+2026-03-02,10,2026,kerala,Respiratory,Respivan,Aerovant Pharma,113.7,35.0,301.0
+2026-03-02,10,2026,  Kerala  ,DIABETES,Metforal,Novanta Pharma,133.4,35.3,368.0
+2026-03-02,10,2026,rajasthan,DIABETES,Metforal,Novanta Pharma,265.2,50.9,696.0
+2026-03-02,10,2026,Telangana,Respiratory,Bronchel,Breathex Labs,198.4,54.1,0.0
+2026-03-02,10,2026,  Karnataka  ,Diabetes,Metforal,Novanta Pharma,180.9,56.3,485.0
+2026-03-02,10,2026,Maharashtra,respiratory,Bronchel,Breathex Labs,209.6,49.7,592.0
+2026-03-02,10,2026,Karnataka ,CARDIOLOGY,Cordamet,Meditrix Labs,178.0,49.0,454.0
+2026-03-02,10,2026,TELANGANA,  Cardiology  ,Cardivex,Corvyx Pharma,155.3,47.1,421.0
+2026-03-02,10,2026,telangana,diabetes,Glucotend,Glucera Health,215.5,67.3,723.0
+2026-03-02,10,2026,RAJASTHAN,CARDIOLOGY,Vascolin,Zenova Biosciences,224.1,40.6,667.0
+2026-03-02,10,2026,  Delhi  ,respiratory,Bronchel,Breathex Labs,190.5,46.9,544.0
+2026-03-02,10,2026,KARNATAKA,Respiratory,Respivan,Aerovant Pharma,177.0,35.2,444.0
+2026-03-02,10,2026,Gujarat,RESPIRATORY,Respivan,Unknown,4019.0,997.0,4429.0
+2026-03-02,10,2026,  Kerala  ,  Diabetes  ,Insulyn,Insulara Biotech,207.1,41.8,657.0
+2026-03-02,10,2026,kerala,Cardiology,Cardivex,Corvyx Pharma,60.0,16.5,151.0
+2026-03-02,10,2026,  Kerala  ,CARDIOLOGY,Cordamet,Meditrix Labs,202.6,48.1,654.0
+2026-03-02,10,2026,  Gujarat  ,respiratory,Bronchel,Breathex Labs,120.8,30.0,409.0
+2026-03-02,10,2026,  Delhi  ,Cardiology,Vascolin,Zenova Biosciences,3481.0,754.0,4277.0
+2026-03-02,10,2026,Maharashtra,respiratory,Bronchel,Breathex Labs,321.8,82.0,891.0
+2026-03-02,10,2026,maharashtra,CARDIOLOGY,Cardivex,Corvyx Pharma,207.7,52.7,548.0
+2026-03-02,10,2026,KERALA,  Diabetes  ,Glucotend,Glucera Health,201.9,30.9,566.0
+2026-03-02,10,2026,telangana,CARDIOLOGY,Cardivex,Corvyx Pharma,84.6,20.8,267.0
+2026-03-02,10,2026,maharashtra,CARDIOLOGY,Cardivex,Corvyx Pharma,292.6,57.0,944.0
+2026-03-02,10,2026,GUJARAT,CARDIOLOGY,Cardivex,Corvyx Pharma,157.0,43.8,444.0
+2026-03-02,10,2026,kerala,RESPIRATORY,Airovent,Pulmovia Therapeutics,86.3,19.0,242.0
+2026-03-02,10,2026,delhi,Respiratory,Bronchel,Breathex Labs,261.9,56.6,799.0
+2026-03-02,10,2026,  West Bengal  ,RESPIRATORY,Respivan,Aerovant Pharma,160.8,38.7,462.0
+2026-03-02,10,2026,Kerala,RESPIRATORY,Respivan,Aerovant Pharma,127.8,18.0,421.0
+2026-03-02,10,2026,TELANGANA,Cardiology,Vascolin,Zenova Biosciences,229.2,36.5,698.0
+2026-03-02,10,2026,Kerala,RESPIRATORY,Respivan,Aerovant Pharma,186.0,54.8,572.0
+2026-03-02,10,2026,  Rajasthan  ,DIABETES,Glucotend,Glucera Health,3196.0,1078.0,3981.0
+2026-03-02,10,2026,Tamil Nadu,DIABETES,Insulyn,Insulara Biotech,352.0,113.0,1166.0
+2026-03-02,10,2026,Delhi,Cardiology,Vascolin,Zenova Biosciences,339.7,62.6,1045.0
+2026-03-02,10,2026,ANDHRA PRADESH,DIABETES,Insulyn,Insulara Biotech,143.0,0.0,382.0
+2026-03-02,10,2026,ANDHRA PRADESH,DIABETES,Insulyn,Insulara Biotech,218.0,34.1,660.0
+2026-03-02,10,2026,  Maharashtra  ,RESPIRATORY,Airovent,Pulmovia Therapeutics,187.4,46.2,633.0
+2026-03-02,10,2026,  Telangana  ,DIABETES,Metforal,Novanta Pharma,237.4,0.0,599.0
+2026-03-02,10,2026,DELHI,CARDIOLOGY,Cordamet,Meditrix Labs,224.7,54.7,625.0
+2026-03-02,10,2026,  Kerala  ,Cardiology,Cordamet,Meditrix Labs,184.6,37.6,622.0
+2026-03-02,10,2026,karnataka,diabetes,Metforal,Novanta Pharma,188.6,56.4,594.0
+2026-03-02,10,2026,  Andhra Pradesh  ,DIABETES,Metforal,Novanta Pharma,0.0,29.3,566.0
+2026-03-02,10,2026,karnataka,cardiology,Cardivex,Corvyx Pharma,124.0,32.4,361.0
+2026-03-02,10,2026,Karnataka ,  Respiratory  ,Respivan,Aerovant Pharma,141.8,32.7,459.0
+2026-03-02,10,2026,  Telangana  ,CARDIOLOGY,Vascolin,Zenova Biosciences,242.7,61.9,612.0
+2026-03-02,10,2026,KERALA,RESPIRATORY,Bronchel,Breathex Labs,146.3,50.1,420.0
+2026-03-02,10,2026,gujarat,Cardiology,Cardivex,Corvyx Pharma,157.2,20.9,506.0
+2026-03-02,10,2026,Rajasthan,RESPIRATORY,Respivan,Aerovant Pharma,96.4,22.3,271.0
+2026-03-02,10,2026,  West Bengal  ,DIABETES,Insulyn,Insulara Biotech,290.6,65.5,966.0
+2026-03-02,10,2026,GUJARAT,respiratory,Respivan,Aerovant Pharma,120.8,25.7,410.0
+2026-03-02,10,2026,kerala,RESPIRATORY,Respivan,Aerovant Pharma,119.4,35.0,315.0
+2026-03-02,10,2026,KARNATAKA,Diabetes,Glucotend,Glucera Health,5728.0,1397.0,7043.0
+2026-03-02,10,2026,kerala,Cardiology,Vascolin,Zenova Biosciences,5303.0,1241.0,6087.0
+2026-03-02,10,2026,west bengal,DIABETES,Insulyn,Insulara Biotech,230.6,71.7,671.0
+2026-03-02,10,2026,karnataka,  Respiratory  ,Airovent,Pulmovia Therapeutics,128.8,36.9,372.0
+2026-03-02,10,2026,  Tamil Nadu  ,Respiratory,Airovent,Pulmovia Therapeutics,132.5,44.8,411.0
+2026-03-02,10,2026,  Andhra Pradesh  ,  Respiratory  ,Bronchel,Breathex Labs,162.0,31.0,513.0
+2026-03-02,10,2026,RAJASTHAN,respiratory,Airovent,Pulmovia Therapeutics,101.5,28.2,310.0
+2026-03-02,10,2026,telangana,Respiratory,Airovent,Pulmovia Therapeutics,191.8,38.5,548.0
+2026-03-02,10,2026,rajasthan,DIABETES,Insulyn,Insulara Biotech,209.5,55.5,634.0
+2026-03-02,10,2026,Tamil Nadu,Respiratory,Airovent,Pulmovia Therapeutics,231.4,69.2,587.0
+2026-03-02,10,2026,  Delhi  ,Diabetes,Insulyn,Unknown,1917.0,387.0,2279.0
+2026-03-02,10,2026,andhra pradesh,CARDIOLOGY,Vascolin,Zenova Biosciences,210.3,65.6,692.0
+2026-03-02,10,2026,Rajasthan,Respiratory,Airovent,Novanta Pharma,4411.0,1472.0,5350.0
+2026-03-02,10,2026,Delhi,DIABETES,Glucotend,Glucera Health,280.2,87.1,895.0
+2026-03-02,10,2026,Karnataka ,Respiratory,Respivan,Aerovant Pharma,213.0,62.1,607.0
+2026-03-02,10,2026,KARNATAKA,cardiology,Cordamet,Meditrix Labs,177.9,43.5,520.0
+2026-03-02,10,2026,Tamil Nadu,Respiratory,Breathex Inhaler,Breathex Labs,3420.0,1153.0,4290.0
+2026-03-02,10,2026,Gujarat,Cardiology,Cardivex,Corvyx Pharma,170.8,43.3,494.0
+2026-03-02,10,2026,Maharashtra,  Cardiology  ,Cordamet,Meditrix Labs,240.9,76.6,774.0
+2026-03-02,10,2026,Delhi,Cardiology,Vascolin,Zenova Biosciences,339.7,62.6,1045.0
+2026-03-02,10,2026,  Gujarat  ,cardiology,Cordamet,Meditrix Labs,137.6,39.9,356.0
+2026-03-02,10,2026,west bengal,  Respiratory  ,Airovent,Pulmovia Therapeutics,134.0,28.0,370.0
+2026-03-02,10,2026,KERALA,Respiratory,Bronchel,Breathex Labs,140.2,39.4,435.0
+2026-03-02,10,2026,  Delhi  ,  Respiratory  ,Respivan,Aerovant Pharma,127.0,27.7,431.0
+2026-03-02,10,2026,WEST BENGAL,  Diabetes  ,Glucotend,Glucera Health,3916.0,985.0,4329.0
+2026-03-02,10,2026,TELANGANA,Cardiology,Cardivex,Corvyx Pharma,157.7,49.6,467.0
+2026-03-02,10,2026,Rajasthan,cardiology,Cardivex,Corvyx Pharma,80.6,25.2,214.0
+2026-03-02,10,2026,  West Bengal  ,diabetes,Glucotend,Glucera Health,195.6,37.5,645.0
+2026-03-02,10,2026,kerala,DIABETES,Insulyn,Insulara Biotech,271.1,53.0,840.0
+2026-03-02,10,2026,West Bengal,respiratory,Respivan,Aerovant Pharma,109.0,28.0,283.0
+2026-03-02,10,2026,Delhi,cardiology,Vascolin,Zenova Biosciences,324.5,64.3,980.0
+2026-03-02,10,2026,Telangana,  Diabetes  ,Insulyn,Insulara Biotech,179.9,53.1,481.0
+2026-03-02,10,2026,KERALA,RESPIRATORY,Bronchel,Unknown,2279.0,593.0,2457.0
+2026-03-02,10,2026,Maharashtra,Cardiology,Corvyx TAB,Corvyx Pharma,2681.0,784.0,3205.0
+2026-03-02,10,2026,Karnataka,Diabetes,Glucotend,Glucera Health,306.3,106.2,978.0

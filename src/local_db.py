@@ -159,6 +159,13 @@ class LocalWarehouseEngine:
             if 'source_vendor' not in new_records_df.columns:
                 new_records_df['source_vendor'] = 'Central Data Feed'
 
+            # Ensure raw table exists
+            tables = conn.execute("SHOW TABLES").fetchdf()
+            if tables.empty or 'local_prescriptions_raw' not in tables['name'].values:
+                conn.close()
+                self._bootstrap_database()
+                conn = self.get_connection()
+
             conn.register('temp_new', new_records_df)
             conn.execute("INSERT INTO local_prescriptions_raw SELECT * FROM temp_new")
             conn.unregister('temp_new')

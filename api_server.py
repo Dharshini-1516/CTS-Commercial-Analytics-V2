@@ -23,20 +23,20 @@ app = FastAPI(
 
 # Pydantic Schemas for API Validation
 class PharmaWeeklyRecord(BaseModel):
-    date: str = Field(..., example="2026-01-05")
-    week_number: int = Field(..., example=1)
-    year: int = Field(..., example=2026)
-    region: str = Field(..., example="Tamil Nadu")
-    therapeutic_area: str = Field(..., example="Respiratory")
-    product: str = Field(..., example="Aerovant HFA")
-    brand: str = Field(..., example="Aerovant Pharma")
-    trx: float = Field(..., example=4520.0)
-    nrx: float = Field(..., example=1280.0)
-    units: float = Field(..., example=5000.0)
+    date: str = Field(..., examples=["2026-01-05"])
+    week_number: int = Field(..., examples=[1])
+    year: int = Field(..., examples=[2026])
+    region: str = Field(..., examples=["Tamil Nadu"])
+    therapeutic_area: str = Field(..., examples=["Respiratory"])
+    product: str = Field(..., examples=["Aerovant HFA"])
+    brand: str = Field(..., examples=["Aerovant Pharma"])
+    trx: float = Field(..., examples=[4520.0])
+    nrx: float = Field(..., examples=[1280.0])
+    units: float = Field(..., examples=[5000.0])
 
 class IngestionPayload(BaseModel):
-    year_week: str = Field(..., example="2026-W01")
-    source_vendor: Optional[str] = Field("Central Market Data Feed", example="IQVIA")
+    year_week: str = Field(..., examples=["2026-W01"])
+    source_vendor: Optional[str] = Field("Central Market Data Feed", examples=["IQVIA"])
     records: List[PharmaWeeklyRecord]
 
 @app.get("/")
